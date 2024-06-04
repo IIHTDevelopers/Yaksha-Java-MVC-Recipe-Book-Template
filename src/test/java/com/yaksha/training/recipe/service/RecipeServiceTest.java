@@ -122,7 +122,7 @@ public class RecipeServiceTest {
 	}
 
 	@Test
-	public void testControllerUpdateStatus() throws Exception {
+	public void testServiceUpdateStatus() throws Exception {
 		Recipe recipe = getRecipe();
 		String status = randomBoolean() ? RecipeStatus.APPROVED.toString() : RecipeStatus.REJECTED.toString();
 
